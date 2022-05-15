@@ -93,10 +93,12 @@ body {
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     }
 
+    
+
     .weather-icon{
         width: 100px;
         height: 100px;
-        background-color: #9800a1;
+        background-color: #D4B2D8;
         border-radius: 50%;
         margin: 0 auto;
         display: flex;
@@ -107,11 +109,11 @@ body {
 
     .weather-location{
         display: flex;
+        flex
         justify-content: center;
         align-items: center;
         width: 100%;
         height: 100%;
-        background-color: #9800a1;
         color: #fff;
         font-size: 1.5rem;
         font-weight: bold;
@@ -125,7 +127,6 @@ body {
         align-items: center;
         width: 100%;
         height: 100%;
-        background-color: #9800a1;
         color: #fff;
         font-size: 1.5rem;
         font-weight: bold;
@@ -139,10 +140,17 @@ body {
         align-items: center;
         width: 100%;
         height: 100%;
-        background-color: #9800a1;
         color: #fff;
         font-size: 1.5rem;
         font-weight: bold;
         padding: 0 2rem;
         box-sizing: border-box;
+    }
+
+    .weather-info{
+        background-color: #6DB1BF;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
     }
