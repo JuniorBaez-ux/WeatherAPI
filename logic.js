@@ -18,7 +18,7 @@ function fetchWeather(searchParam) {
     let stringToSearch = document.getElementById('search').value; 
     searchParam = stringToSearch !== "" ? stringToSearch.toLowerCase() : 'San francisco de Macoris';
 
-    fetch('http://api.openweathermap.org/data/2.5/weather?q=' + searchParam + '&' + SEARCH_API + '&' + UNIT_SEARCH, {mode: 'cors'}, )
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=' + searchParam + '&' + SEARCH_API + '&' + UNIT_SEARCH, {mode: 'cors'}, )
     .then(function(response) {
         return response.json();
     })
